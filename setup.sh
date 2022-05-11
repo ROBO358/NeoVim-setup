@@ -4,7 +4,6 @@ cd "dirname $0"
 
 echo "SETUP Starting..."
 sudo apt update
-sudo apt -y upgrade
 
 sudo apt -y install neovim curl
 sudo sh -c "curl -sL install-node.vercel.app/lts | bash"
