@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 cd "dirname $0"
 
@@ -20,7 +20,7 @@ cd $HOME/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Fon
 if ! grep -q "alias vim=nvim" $HOME/.zshrc; then
 	echo "SET ALIAS"
 	echo "alias vim=nvim" >> $HOME/.zshrc
-	source ~/.zshrc
+	zsh -c "source '$HOME/.zshrc'"
 fi
 
 echo "Done"
