@@ -4,7 +4,7 @@ NeoVimの初期セットアップスクリプト
 
 # セットアップ手順
 
-1. `sudo apt upgrade & sudo apt upgrade & sudo apt install git`を実行する。
+1. `sudo apt update & sudo apt -y upgrade & sudo apt -y install git`を実行する。
 1. `git clone https://github.com/ROBO358/NeoVim-setup.git`する。
 1. `sh ./setup.sh`する。
 1. 画面の表示に従ってパスワードの入力
