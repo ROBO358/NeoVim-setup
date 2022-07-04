@@ -23,6 +23,8 @@ if ! grep -q "alias vim=nvim" $HOME/.zshrc; then
 	zsh -c "source '$HOME/.zshrc'"
 fi
 
+git config --global core.editor "$(which nvim)"
+
 echo "Done"
 
 echo "======"
